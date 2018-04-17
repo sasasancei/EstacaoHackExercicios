@@ -1,16 +1,10 @@
-#logo img{
-    width: 13%;
-    border-radius: 50%;
-    background-color: #8B8989;
-    position: absolute;
-    left: 590px;
-    top:0px;
-    z-index: 1;
-   
-}
 
 body{
-    background: url("http://www.casadopapeldeparede.com.br/wp-content/uploads/2013/04/03850-90.jpg?x37399");
+    margin: 0;
+    background: url("https://static.vecteezy.com/system/resources/previews/000/097/064/non_2x/child-hand-print-vectors.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    overflow-x: hidden;
 }
 
 .centrallogin{
@@ -19,7 +13,7 @@ body{
     width: 700px;
     height: 400px;
     margin: 70px auto 0px;
-    opacity: 0.75;
+    opacity: 0.90;
 }
 
 .interno{
@@ -31,9 +25,23 @@ body{
     border-radius:10px;
 
 }
+section{
+    position:absolute;
+    transform: translateX(100%);
+    transition: .5s;
+    width: 100%;
+}
+section.ativa{
+    transform: translateX(0);
+}
 
+p{
+    margin: 5;
+    padding-top: 10px;
+    color: white;
+    font-size: 30px;
+}
 .login{
-    border: solid red;
     background-color:#8B8989;
     height: 70px;
     text-align: center;
@@ -67,3 +75,21 @@ body{
     bottom:0;
     width:100%;
 }
+#resposta{
+    padding-left: 10px;
+}
+.imagem{
+    
+    margin: 0;
+    height: 100%;
+    background-color: black;
+}
+
+.imagem img{
+    transition: 1s;
+    padding-left: 490px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;    
+}
+

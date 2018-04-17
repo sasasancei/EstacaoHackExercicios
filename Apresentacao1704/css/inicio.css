@@ -1,0 +1,7 @@
+.imagem{
+    border: solid red 2px;
+}
+
+.imagem img{
+    width: 500px;
+}
