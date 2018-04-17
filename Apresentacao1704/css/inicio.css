@@ -1,7 +1,56 @@
-.imagem{
-    border: solid red 2px;
+body{
+    background-color: black;
+    background-repeat: no-repeat;
 }
 
-.imagem img{
-    width: 500px;
+.menu{
+    border: solid red 4px;
+    text-align: end;
+    margin: 3px;
+}
+
+.corpo{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    margin-top: 1x;
+    margin-bottom: 5px;
+    background-color: green;
+    border-radius: 5px;
+   
+}
+
+footer{
+    height: 70px;
+    background-color: gray;
+    border-radius: 5px;
+    clear: both;
+}
+
+.corpo div{
+    opacity: 0.5;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 98%;
+    margin: 2px;
+    border: solid yellow 4px;
+    justify-content: center;   
+   
+   
+}
+.corpo .projeto{
+    border: violet solid 4px;
+    height: 60px;
+    text-align: center;
+    border: solid pink 4px;
+ 
+}
+
+.corpo .fotoprojeto{
+    text-align: center;
+    border: solid pink 4px;
+    background-image: url(https://www.direitocom.com/wp-content/uploads/5800_domingo-14-de-setembro-de-2014.png);
+    background-repeat: no-repeat;
 }
